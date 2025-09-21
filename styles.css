@@ -1,0 +1,66 @@
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Navigation */
+nav {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+nav a:hover, nav a.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Projects section */
+.project {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Forms */
+form input, form textarea, form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+form button {
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+form button:hover {
+  background: #555;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
